@@ -50,8 +50,6 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 gem "bootsnap", '>=1.4.4', require: false
 gem 'rexml'
 
-# Use Sass to process CSS
-gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -61,6 +59,7 @@ group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]
 #  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw ]
   gem 'rspec-rails'
+  gem 'launchy'
 end
 
 group :development do

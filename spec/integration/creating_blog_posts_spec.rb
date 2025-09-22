@@ -7,9 +7,10 @@ RSpec.describe "CreatingBlogPosts", type: :system do
 
 #  pending "add some scenarios (or delete) #{__FILE__}"
 it 'saves & displays the resulting blog post' do
+  
   visit root_path
   click_on "New Post"
-
+  #click_link(href: new_post_path)
   fill_in 'Title', with: 'Hello, World!'
   fill_in 'Body', with: 'Hello, I say!'
 
