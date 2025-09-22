@@ -78,8 +78,6 @@ jobs:
         gem install rubocop
         rubocop
 
-    - name: Clean assets
-      run: bundle exec rails assets:clobber
 #        npx update-browserslist-db@latest
 #        bundle exec rake webpacker:compile
 
